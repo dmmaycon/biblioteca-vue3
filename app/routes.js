@@ -8,7 +8,18 @@ export const routes = [
         component: ListComponent
     },
     {
-        path: '/form',
-        component: FormComponent
+        path: '/view/:id',
+        component: FormComponent,
+        name: 'Visual'
+    },
+    {
+        path: '/edit/:id',
+        component: FormComponent,
+        name: 'Editar'
+    },
+    {
+        path: '/excluir/:id',
+        component: FormComponent,
+        name: 'Excluir'
     }
 ]
