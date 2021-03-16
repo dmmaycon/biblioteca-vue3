@@ -1,0 +1,1 @@
+export const FormComponent = { template: '<h1>Form</h1>' }
